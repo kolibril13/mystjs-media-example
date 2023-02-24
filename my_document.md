@@ -1,36 +1,57 @@
 ---
-title: Euler's identity
-subject: Math
+title: Media Example
+subject: Testing
 subtitle: Lorem ipsum dolor sit.
-short_title: Euler
 authors:
   - name: John Doe
-    affiliations:
-      - University of Basel
-    email: name@surname.com
-license: CC-BY-4.0
-keywords: myst, markdown, open-science
-numbering:
-  code: true 
-  # TODO: code: true might be default in future
-
 exports:
   - format: pdf
     template: arxiv_two_column
 ---
 
-<!-- TODO: maybe delete this for mini example. -->
+Here we will see:
 
-:::{figure} #manim-img
-:name: Foo
-Image from manim
+An image  [](#fig-img).  
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+:::{figure} #my-img
+:name: fig-img
+Image from matplotlib
 :::
 
-:::{figure} #manim-vid
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+:::{figure} #my-vid-embedded
+:name: fig-vid-embedded
+Embedded video
+:::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+:::{figure} #my-vid-not-embedded
+:name: fig-vid-not-embedded
+Not embedded video
+:::
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+:::{figure} #my-widget
 :name: Bar
-Video from manim
+Interactive ImageSlider
 :::
 
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+:::{figure} #my-gif
+:name: fig-gif
+:width: 300px
+Animated GIF
+:::
+
+
+Hello World!
 
 
 
