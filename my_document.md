@@ -87,6 +87,20 @@ Animated GIF
 
 Hello World!
 
+:::{figure} #my-svg
+:name: fig-svg
+:width: 100px
+My svg
+:::
+
+
+:::{figure} #my-dataframe
+:name: fig-df
+:width: 100px
+My dataframe
+:::
+
+
 
 
  <!-- For pdf export, run `myst build 01-hello.md` -->
